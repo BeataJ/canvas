@@ -61,4 +61,10 @@ const centerY = canvas.height / 2;
 // Draw head
 ctx.arc(centerX, centerY, 200, 0, Math.PI * 2);
 
+// move to mouth
+ctx.moveTo(centerX + 100, centerY);
+
+// draw mouth
+ctx.arc(centerX, centerY, 100, 0, Math.PI, false);
+
 ctx.stroke();

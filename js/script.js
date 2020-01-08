@@ -14,3 +14,8 @@ ctx.strokeRect(100, 200, 150, 100);
 
 // clearRect()
 ctx.clearRect(25, 25, 140, 90);
+
+// fillText()
+ctx.font = "30px Arial";
+ctx.fillStyle = "purple";
+ctx.fillText("beata", 400, 50);

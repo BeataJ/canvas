@@ -1,5 +1,5 @@
-// const canvas = document.getElementById("canvas");
-// const ctx = canvas.getContext("2d");
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
 
 // // fillRect()
 // ctx.fillStyle = "red";
@@ -27,3 +27,6 @@
 
 // Paths
 ctx.beginPath();
+ctx.moveTo(50, 50);
+ctx.lineTo(150, 50);
+ctx.stroke();

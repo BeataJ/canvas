@@ -44,3 +44,7 @@ ctx.lineTo(200, 50);
 ctx.fillStyle = "green";
 ctx.fill();
 ctx.stroke();
+
+ctx.beginPath();
+ctx.rect(300, 50, 150, 100);
+ctx.fill();

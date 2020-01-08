@@ -53,3 +53,6 @@ const ctx = canvas.getContext("2d");
 // ctx.fill();
 
 // Arc (circles)
+ctx.beginPath();
+ctx.arc(100, 100, 40, 0, Math.PI * 2);
+ctx.stroke();

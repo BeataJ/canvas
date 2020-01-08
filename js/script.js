@@ -54,5 +54,8 @@ const ctx = canvas.getContext("2d");
 
 // Arc (circles)
 ctx.beginPath();
-ctx.arc(100, 100, 40, 0, Math.PI * 2);
+
+// Draw head
+ctx.arc(canvas.width / 2, canvas.height / 2, 200, 0, Math.PI * 2);
+
 ctx.stroke();

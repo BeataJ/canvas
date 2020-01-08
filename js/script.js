@@ -73,4 +73,10 @@ ctx.moveTo(centerX - 60, centerY - 80);
 // draw left eye
 ctx.arc(centerX - 80, centerY - 80, 20, 0, Math.PI * 2);
 
+// move to right eye
+ctx.moveTo(centerX + 100, centerY - 80);
+
+// draw right eye
+ctx.arc(centerX + 80, centerY - 80, 20, 0, Math.PI * 2);
+
 ctx.stroke();

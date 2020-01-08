@@ -67,4 +67,10 @@ ctx.moveTo(centerX + 100, centerY);
 // draw mouth
 ctx.arc(centerX, centerY, 100, 0, Math.PI, false);
 
+// move to left eye
+ctx.moveTo(centerX - 60, centerY - 80);
+
+// draw left eye
+ctx.arc(centerX - 80, centerY - 80, 20, 0, Math.PI * 2);
+
 ctx.stroke();

@@ -24,3 +24,6 @@
 // ctx.lineWidth = "1";
 // ctx.strokeStyle = "brown";
 // ctx.strokeText("beata", 400, 100);
+
+// Paths
+ctx.beginPath();

@@ -26,25 +26,30 @@ const ctx = canvas.getContext("2d");
 // ctx.strokeText("beata", 400, 100);
 
 // Paths
-ctx.beginPath();
-ctx.moveTo(50, 50);
-ctx.lineTo(150, 50);
-ctx.lineTo(100, 200);
-// ctx.lineTo(50, 50);
-ctx.closePath();
+
+// // Triangle
+// ctx.beginPath();
+// ctx.moveTo(50, 50);
+// ctx.lineTo(150, 50);
+// ctx.lineTo(100, 200);
+// // ctx.lineTo(50, 50);
+// ctx.closePath();
+// // ctx.stroke();
+// ctx.fillStyle = "coral";
+// ctx.fill();
+
+// ctx.beginPath();
+// ctx.moveTo(200, 50);
+// ctx.lineTo(150, 200);
+// ctx.lineTo(250, 200);
+// ctx.lineTo(200, 50);
+// ctx.fillStyle = "green";
+// ctx.fill();
 // ctx.stroke();
-ctx.fillStyle = "coral";
-ctx.fill();
 
-ctx.beginPath();
-ctx.moveTo(200, 50);
-ctx.lineTo(150, 200);
-ctx.lineTo(250, 200);
-ctx.lineTo(200, 50);
-ctx.fillStyle = "green";
-ctx.fill();
-ctx.stroke();
+// // Ractangle
+// ctx.beginPath();
+// ctx.rect(300, 50, 150, 100);
+// ctx.fill();
 
-ctx.beginPath();
-ctx.rect(300, 50, 150, 100);
-ctx.fill();
+// Arc (circles)

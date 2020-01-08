@@ -35,3 +35,8 @@ ctx.closePath();
 // ctx.stroke();
 ctx.fillStyle = "coral";
 ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(200, 50);
+ctx.lineTo(150, 200);
+ctx.stroke();

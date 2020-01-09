@@ -90,3 +90,22 @@ const ctx = canvas.getContext("2d");
 // ctx.stroke();
 
 // ctx.stroke();
+
+// Animation 1
+
+const circle = {
+  x: 200,
+  y: 200,
+  size: 30,
+  dx: 5,
+  dy: 4
+};
+
+function drawCircle() {
+  ctx.beginPath();
+  ctx.arc(circle.x, circle.y, circle.size, 0, Math.PI * 2);
+  ctx.fillStyle = "purple";
+  ctx.fill();
+}
+
+drawCircle();

@@ -108,4 +108,15 @@ function drawCircle() {
   ctx.fill();
 }
 
-drawCircle();
+function update() {
+  ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+
+  drawCircle();
+
+  // change position
+  circle.x += circle.dx;
+
+  requestAnimationFrame(update);
+}
+
+update();

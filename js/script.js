@@ -115,6 +115,7 @@ function update() {
 
   // change position
   circle.x += circle.dx;
+  circle.y += circle.dy;
 
   requestAnimationFrame(update);
 }

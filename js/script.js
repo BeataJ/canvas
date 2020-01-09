@@ -53,40 +53,40 @@ const ctx = canvas.getContext("2d");
 // ctx.fill();
 
 // Arc (circles)
-ctx.beginPath();
+// ctx.beginPath();
 
-const centerX = canvas.width / 2;
-const centerY = canvas.height / 2;
+// const centerX = canvas.width / 2;
+// const centerY = canvas.height / 2;
 
-// Draw head
-ctx.arc(centerX, centerY, 200, 0, Math.PI * 2);
+// // Draw head
+// ctx.arc(centerX, centerY, 200, 0, Math.PI * 2);
 
-// move to mouth
-ctx.moveTo(centerX + 100, centerY);
+// // move to mouth
+// ctx.moveTo(centerX + 100, centerY);
 
-// draw mouth
-ctx.arc(centerX, centerY, 100, 0, Math.PI, false);
+// // draw mouth
+// ctx.arc(centerX, centerY, 100, 0, Math.PI, false);
 
-// move to left eye
-ctx.moveTo(centerX - 60, centerY - 80);
+// // move to left eye
+// ctx.moveTo(centerX - 60, centerY - 80);
 
-// draw left eye
-ctx.arc(centerX - 80, centerY - 80, 20, 0, Math.PI * 2);
+// // draw left eye
+// ctx.arc(centerX - 80, centerY - 80, 20, 0, Math.PI * 2);
 
-// move to right eye
-ctx.moveTo(centerX + 100, centerY - 80);
+// // move to right eye
+// ctx.moveTo(centerX + 100, centerY - 80);
 
-// draw right eye
-ctx.arc(centerX + 80, centerY - 80, 20, 0, Math.PI * 2);
+// // draw right eye
+// ctx.arc(centerX + 80, centerY - 80, 20, 0, Math.PI * 2);
 
-// Quadratic curve
-ctx.moveTo(75, 25);
-ctx.quadraticCurveTo(25, 25, 25, 62.5);
-ctx.quadraticCurveTo(25, 100, 50, 100);
-ctx.quadraticCurveTo(50, 120, 30, 125);
-ctx.quadraticCurveTo(60, 120, 65, 100);
-ctx.quadraticCurveTo(125, 100, 125, 62.5);
-ctx.quadraticCurveTo(125, 25, 75, 25);
-ctx.stroke();
+// // Quadratic curve
+// ctx.moveTo(75, 25);
+// ctx.quadraticCurveTo(25, 25, 25, 62.5);
+// ctx.quadraticCurveTo(25, 100, 50, 100);
+// ctx.quadraticCurveTo(50, 120, 30, 125);
+// ctx.quadraticCurveTo(60, 120, 65, 100);
+// ctx.quadraticCurveTo(125, 100, 125, 62.5);
+// ctx.quadraticCurveTo(125, 25, 75, 25);
+// ctx.stroke();
 
-ctx.stroke();
+// ctx.stroke();

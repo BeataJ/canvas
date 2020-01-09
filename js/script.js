@@ -117,6 +117,11 @@ function update() {
   circle.x += circle.dx;
   circle.y += circle.dy;
 
+  // Detect side walls
+  if (circle.x + circle.size > canvas.width || circle.x - circle.size < 0) {
+    circle.dx *= -1;
+  }
+
   requestAnimationFrame(update);
 }
 

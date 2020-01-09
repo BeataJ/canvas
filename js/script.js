@@ -122,6 +122,11 @@ function update() {
     circle.dx *= -1;
   }
 
+  // Detect top and bottom walls
+  if (circle.y + circle.size > canvas.height || circle.y - circle.size < 0) {
+    circle.dy *= -1;
+  }
+
   requestAnimationFrame(update);
 }
 

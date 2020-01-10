@@ -197,7 +197,21 @@ function keyDown(e) {
   }
 }
 
-function keyUp(e) {}
+function keyUp(e) {
+  if (
+    e.key === "ArrowRight" ||
+    e.key === "Right" ||
+    e.key === "ArrowLeft" ||
+    e.key === "Left" ||
+    e.key === "ArrowUp" ||
+    e.key === "Up" ||
+    e.key === "ArrowDown" ||
+    e.key === "Down"
+  ) {
+    player.dx = 0;
+    player.dy = 0;
+  }
+}
 
 update();
 

@@ -170,3 +170,6 @@ function update() {
 }
 
 update();
+
+document.addEventListener("keydown", keyDown);
+document.addEventListener("keyup", keyUp);

@@ -151,6 +151,8 @@ function drawPlayer() {
 }
 
 function update() {
+  
+
   drawPlayer();
 
   requestAnimationFrame(update);

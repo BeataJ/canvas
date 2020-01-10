@@ -173,6 +173,18 @@ function moveUp() {
   player.dy = -player.speed;
 }
 
+function moveDown() {
+  player.dy = player.speed;
+}
+
+function moveRight() {
+  player.dx = player.speed;
+}
+
+function moveLeft() {
+  player.dx = -player.speed;
+}
+
 function keyDown(e) {
   if (e.key === "ArrowRight" || e.key === "Right") {
     moveRight();

@@ -134,6 +134,8 @@ const ctx = canvas.getContext("2d");
 
 // ***** Animation 2 - Character
 
+const image = document.getElementById("source");
+
 const player = {
   w: 50,
   h: 70,

@@ -154,10 +154,17 @@ function clear() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
+function newPos() {
+  player.x += player.dx;
+  player.y += player.dy;
+}
+
 function update() {
   clear();
 
   drawPlayer();
+
+  newPos();
 
   requestAnimationFrame(update);
 }

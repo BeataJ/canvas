@@ -141,7 +141,19 @@ const player = {
   h: 70,
   x: 20,
   y: 200,
-  speed: 5,
+  speed: 10,
   dx: 0,
   dy: 0
 };
+
+function drawPlayer() {
+  ctx.drawImage(image, player.x, player.y, player.w, player.h);
+}
+
+function update() {
+  drawPlayer();
+
+  requestAnimationFrame(update);
+}
+
+update();

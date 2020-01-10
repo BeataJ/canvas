@@ -169,6 +169,20 @@ function update() {
   requestAnimationFrame(update);
 }
 
+function keyDown(e) {
+  if (e.key === "ArrowRight" || e.key === "Right") {
+    moveRight();
+  } else if (e.key === "ArrowLeft" || e.key === "Left") {
+    moveLeft();
+  } else if (e.key === "ArrowUp" || e.key === "Up") {
+    moveUp();
+  } else if (e.key === "ArrowDown" || e.key === "Down") {
+    moveDown();
+  }
+}
+
+function keyUp(e) {}
+
 update();
 
 document.addEventListener("keydown", keyDown);

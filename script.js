@@ -141,7 +141,7 @@ const player = {
   h: 70,
   x: 20,
   y: 200,
-  speed: 10,
+  speed: 5,
   dx: 0,
   dy: 0
 };
@@ -167,6 +167,10 @@ function update() {
   newPos();
 
   requestAnimationFrame(update);
+}
+
+function moveUp() {
+  player.dy = -player.speed;
 }
 
 function keyDown(e) {

@@ -150,8 +150,12 @@ function drawPlayer() {
   ctx.drawImage(image, player.x, player.y, player.w, player.h);
 }
 
+function clear() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
 function update() {
-  
+  clear();
 
   drawPlayer();
 
